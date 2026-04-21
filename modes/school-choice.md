@@ -27,7 +27,7 @@
 - 提醒敏感专业的隐性门槛（身高/视力/户籍/政审等）
 - 在需要时查询最新招生与学校信息（按 `references/sources-and-evidence.md` 的来源优先级）
 - 如涉及经济压力，提示参考 `references/financial-aid.md` 的资助政策
-- 如用户想了解**具体学校**的宿舍 / 食堂 / 氛围 / 管理风格 / 就读体验，且官方信息无法覆盖时，按 `references/xhs-search.md` 检索小红书作为补充（记得先读 `references/xhs-content-evaluation.md` 过滤再呈现）
+- 用户想了解**具体学校**的宿舍 / 食堂 / 氛围 / 管理风格 / 就读体验时，**默认**按 `references/sources-and-evidence.md` 的来源优先级走（官方 + 媒体 + 通用 WebSearch）；**仅当用户显式提到"小红书 / 小红薯 / xhs / 红书"**时，才按 `references/xhs-search.md` 走 MCP 检索（先读 `references/xhs-content-evaluation.md` 过滤再呈现）
 - 帮助用户形成一个**现实可行的候选清单**（而不是一个「最优答案」）
 
 ## 默认输出结构
