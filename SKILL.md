@@ -72,6 +72,8 @@ triggers:
 - **危机与心理/劳动权益援助资源**（安全信号触发时立即读）：`references/crisis-support.md`
 - **助学与资助政策提醒**（涉及家庭经济压力、学费、贫困生认定时读）：`references/financial-aid.md`
 - **身体/户籍/性别门槛提示**（涉及护理、铁道、幼教、航空、消防、军警等专业时读）：`references/sensitive-majors.md`
+- **小红书检索路径与透明度规则**（需要查小红书时**先读这个**）：`references/xhs-search.md`
+- **小红书内容评估与再包装规则**（拿到小红书笔记后呈现给用户前**必读**）：`references/xhs-content-evaluation.md`
 
 典型首轮回应的风格与结构示例见 `examples/openings.md`，对「模糊开场」「信息不足的提问」「危机信号」「升学路径」「实习权益」五类典型情境有参考开场，可作为第一轮回应的风格锚。
 

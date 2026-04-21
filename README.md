@@ -18,7 +18,9 @@ ZhiXiang-skill/
 │   ├── sources-and-evidence.md       # 信息来源与证据规则
 │   ├── crisis-support.md             # 危机与心理/劳动权益援助资源
 │   ├── financial-aid.md              # 助学与资助政策提醒
-│   └── sensitive-majors.md           # 身体/户籍/性别门槛敏感专业
+│   ├── sensitive-majors.md           # 身体/户籍/性别门槛敏感专业
+│   ├── xhs-search.md                 # 小红书检索路径（MCP 优先 → 网页搜索降级 → 透明度）
+│   └── xhs-content-evaluation.md     # 小红书笔记过滤与再包装规则
 └── examples/
     └── openings.md                   # 典型首轮回应示例（风格锚）
 ```
@@ -40,4 +42,5 @@ ZhiXiang-skill/
 
 ## 版本
 
+- **v0.3**：新增小红书检索能力。优先通过本地 `xiaohongshu-mcp` 调用，未配置时降级为 `WebSearch site:xiaohongshu.com`；每次使用都会在回答末尾明示走的哪条路径。新增 `references/xhs-search.md` 和 `references/xhs-content-evaluation.md` 两份规则文件，后者负责过滤营销/歧视内容并分离事实与情绪。
 - **v0.2**：重构为模块化结构；新增「就业与实习」模式与四类共享资源；加入安全/情绪/家长视角/政策时效性等硬约束。
